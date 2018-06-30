@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Crystal Collectors</title>
+
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+  <script type="text/javascript" src="assets/js/game.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+  
+  <div class="jumbotron text-center">
+  <h1 class="title">Crystals Collector!</h1>
+  </div>
+
+  <div class="container">
+
+  <div class="row">
+
+  <div class="rules col-xs-12 col-sm-8 col-md-4">
+    <p>There are 4 crystals displayed as buttons on the page. </p>
+    <p>Game starts with the display of a Random Number</p>
+    <p>Goal is to achieve the random number by clicking the crystals in such a way that it matches the random number</p>
+    <p>Each Crystal is equivalent to a Number that is hidden until the click of the crystal</p>
+    <p>Score Matches Random Number You Win!!</p>
+    <p>Score Doesn't match Random Number You Loose!!</p>
+    <p>
+        <div class="col-xs-12 col-sm-12 col-md-6 buttons">
+            <img class="crystal" src="assets/images/blue.png" width="70" height="70" />
+            <img class="crystal" src="assets/images/green.png" width="80" height="80"/>
+            <img class="crystal" src="assets/images/pink.png" width="80" height="80"/>
+            <img class="crystal" src="assets/images/yellow.png" width="80" height="80"/>
+            <br/><br/>
+            
+          </div>
+    </p>
+
+  </div> 
+
+  <div class="col-xs-12 col-sm-4 col-md-8 text-center">
+    <div class="col-xs-12 col-sm-12 col-md-6">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-6">
+          <div class=" panel panel-primary goalScoreBox">
+            <div class="panel-heading">
+             <div class="panel-title">Goal</div> 
+
+            </div>
+           <div class="goalScore panel-body"></div>
+           
+          </div>
+        </div>
+
+      <div class="col-xs-12 col-sm-12 col-md-6">        
+          <div class="panel panel-success userScoreBox">
+            <div class="panel-heading">
+              <div class="panel-title">Your Score</div>
+            </div>
+            <div class="userScore panel-body"></div>
+          </div>
+      </div>
+     </div>
+
+     <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-6">
+        <div class="panel panel-danger winBox">
+          <div class="panel-heading">
+            <div class="panel-title">Wins</div>
+          </div> 
+           <div class="wins panel-body"></div>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-12 col-md-6">
+        <div class="panel panel-danger lossBox">
+          <div class="panel-heading">
+            <div class="panel-title">Losses</div>
+          </div> 
+          <div class="losses panel-body"></div>
+        </div>
+      </div>
+      </div>
+
+    
+    </div>
+
+    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+<button type="button" class="btn btn-default btn-lg newGame">New Game</button>
+
+    
+
+
+
+  </div>
+
+  </div>
+  </div>
+  <footer class="footer fixed-bottom-center">
+      <p> &copy Copyright 2018 | Neha Reddy | <a href="https://github.com/nlsmu2018/Responsive-Portfolio" target="_blank">GitHub</a></p>
+   </footer>
+
+</body>
+</html>
